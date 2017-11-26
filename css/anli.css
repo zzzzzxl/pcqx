@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.jumbotron {
+  margin: 51px 0 0 0;
+  padding: 60px 0;
+  background: #eeeeee url(../img/bg.jpg);
+  color: #cccccc;
+}
+.main {
+  padding: 40px 0;
+  background-color: #eeeeee;
+}

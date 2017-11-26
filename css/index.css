@@ -1,0 +1,95 @@
+@charset "UTF-8";
+#sliderBox1 {
+  margin-top: 51px;
+}
+#sliderBox1 .item:nth-child(1) {
+  background-color: #243442;
+}
+#sliderBox1 .item:nth-child(2) {
+  background-color: #F5E5DD;
+}
+#sliderBox1 .item:nth-child(3) {
+  background-color: #DC292C;
+}
+#tab1 {
+  padding: 20px 0;
+}
+#tab1 .title {
+  padding: 20px 0;
+}
+#tab1 .contents {
+  padding: 10px 0;
+}
+#tab2 {
+  padding: 60px 0;
+  background-color: #eeeeee;
+}
+#tab2 .contents {
+  padding-top: 12%;
+}
+#tab3 {
+  padding: 60px 0;
+}
+#tab3 .contents {
+  padding-top: 6%;
+}
+@media screen and (min-width: 1200px) {
+  #tab1 .title .h2 {
+    font-size: 30px;
+  }
+  #tab1 .title .h4,
+  #tab2 .contents .h4,
+  #tab3 .contents .h4 {
+    font-size: 18px;
+  }
+  #tab2 .contents .h3,
+  #tab2 .contents .h3 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #tab1 .title .h2 {
+    font-size: 28px;
+  }
+  #tab1 .title .h4,
+  #tab2 .contents .h4,
+  #tab3 .contents .h4 {
+    font-size: 17px;
+  }
+  #tab2 .contents .h3,
+  #tab2 .contents .h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #tab1 .title .h2 {
+    font-size: 26px;
+  }
+  #tab1 .title .h4,
+  #tab2 .contents .h4,
+  #tab3 .contents .h4 {
+    font-size: 16px;
+  }
+  #tab2 .contents .h3,
+  #tab2 .contents .h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #tab1 .title .h2 {
+    font-size: 24px;
+  }
+  #tab1 .title .h4,
+  #tab2 .contents .h4,
+  #tab3 .contents .h4 {
+    font-size: 15px;
+  }
+  #tab2 .contents .h3,
+  #tab2 .contents .h3 {
+    font-size: 20px;
+  }
+  #tab2 .contents,
+  #tab3 .contents {
+    padding-top: 0;
+  }
+}

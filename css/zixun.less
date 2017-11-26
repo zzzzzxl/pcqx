@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.jumbotron{
+    margin: 51px 0 0 0;
+    padding: 60px 0;
+    background: #eeeeee url(../img/bg.jpg);
+    color: #cccccc;
+}
+.main{
+    padding: 40px 0;
+    background-color: #eeeeee;
+    .news{
+        .container-fluid{
+            .row{
+                background-color: #fff;
+                box-shadow: 2px 2px 3px #ccc;
+                margin: 0 0 20px 0;
+                img{
+                    margin: 12px 0;
+                }
+            }
+        }
+    }
+    .hotNews{
+        background-color: #fff;
+        box-shadow: 2px 2px 3px #ccc;
+        margin: 0 0 20px 0;
+        blockquote{
+            margin: 20px 0 10px 0;
+            padding: 0;
+            h2{
+                padding: 5px;
+                font-size: 20px;
+            }
+        }
+        .row{
+            padding: 10px 0;
+        }
+
+    }
+}
+@media screen and (min-width: 1200px) {
+    .jumbotron{
+        h1{
+            font-size: 36px;
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .main{
+        .news .h4{
+            font-size: 20px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .jumbotron{
+        h1{
+            font-size: 33px;
+        }
+        h4{
+            font-size: 16px;
+        }
+    }
+    .main{
+        .news .h4{
+            font-size: 18px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .jumbotron{
+        h1{
+            font-size: 30px;
+        }
+        h4{
+            font-size: 14px;
+        }
+    }
+    .main{
+        .news .h4{
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .jumbotron{
+        h1{
+            font-size: 37px;
+        }
+        h4{
+            font-size: 14px;
+        }
+    }
+    .main{
+        .news .h4{
+            font-size: 14px;
+        }
+    }
+}

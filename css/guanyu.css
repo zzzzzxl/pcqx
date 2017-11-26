@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.jumbotron {
+  margin: 51px 0 0 0;
+  padding: 60px 0;
+  background: #eeeeee url(../img/bg.jpg);
+  color: #cccccc;
+}
+.main {
+  padding: 40px 0;
+  background-color: #eeeeee;
+}
+.main .aboutUs {
+  background-color: #ffffff;
+}
+.main .aboutUs h3 {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
+.main .aboutUs p {
+  line-height: 2;
+}
+@media screen and (min-width: 1200px) {
+  .main p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main p {
+    font-size: 13px;
+  }
+}
